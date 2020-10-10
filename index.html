@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- &display=swap&subset=cyrillic-ext -->
+	<link rel="stylesheet" href="css/style.css">
+	<title>Урок №10</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="block">
+			<div class="inner">
+				<div class="block__general">
+					<h2 class="block__h2">Восстановление пароля</h2>
+					<div class="block__form">
+						<form class="form" enctype="multipart/form-data" action="#">
+							<label for="usermail" class="form__label">Введите Email, на него будет выслан новый
+								пароль</label>
+							<input id="usermail" autocomplete="off" class="input" name="form[]" value=""
+								placeholder="Почта*" type="text">
+							<a href="#" class="block__link"><span>Вернуться в форму авторизации</span></a>
+							<button class="form__btn" type="submit">Отправить</button>
+							<a href="#" class="form__remark">* Если вы не получили письмо с паролем,
+								проверьте папку Спам.</a>
+						</form>
+						<span class="question">У вас нет аккаунта?
+							<a href="#" class="registration">Регистрация</a>
+						</span>
+					</div>
+				</div>
+				<div class="block2">
+					<div class="block2__h2">Вход</div>
+					<form class="form2" enctype="multipart/form-data" action="#">
+						<div class="form__item-1">
+							<label for="usermail__2" class="form__label-2"></label>
+							<input id="usermail__2" autocomplete="off" type="text" name="form[]" value=""
+								placeholder="Почта*" class="input__2">
+						</div>
+						<div class="form__item-2">
+							<input autocomplete="off" type="password" name="form[]" value="" placeholder="Пароль*"
+								class="input__pass">
+						</div>
+						<div class="checkbox">
+							<input id="check_1" type="checkbox" name="form[]" value="1" class="checkbox__item">
+							<label for="check_1" class="checkbox__label">Запомнить меня</label>
+							<a href="#" class="chec__link">Забыли пароль?</a>
+						</div>
+					</form>
+				</div>
+				<div class="block3">
+					<div class="block2__h2">Регистрация</div>
+					<form enctype="multipart/form-data" action="#" class="form3">
+						<div class="form3__item">
+							<input id="nam" autocomplete="off" type="text" name="form[]" placeholder="Имя*" value=""
+								class="input">
+							<label for="nam" class="form3__label"></label>
+						</div>
+						<div class="form3__item">
+							<input id="fam" autocomplete="off" type="text" name="form[]" placeholder="Фамилия*" value=""
+								class="input">
+							<label for="fam" class="form3__label"></label>
+						</div>
+						<div class="form3__item">
+							<input id="log" autocomplete="off" type="text" name="form[]" placeholder="Логин*" value=""
+								class="input">
+							<label for="log" class="form3__label"></label>
+						</div>
+						<div class="form3__item">
+							<input id="eml" autocomplete="off" type="text" name="form[]" placeholder="EMail*" value=""
+								class="input">
+							<label for="eml" class="form3__label"></label>
+						</div>
+						<div class="form3__item">
+							<input id="pasw" autocomplete="off" type="password" name="form[]" placeholder="Пароль*"
+								value="" class="input">
+							<label for="pasw" class="form3__label"></label>
+						</div>
+						<div class="form3__item">
+							<input autocomplete="off" type="password" name="form[]" placeholder="Повторите пароль*"
+								value="" class="input">
+							<label for="" class="form3__label"></label>
+						</div>
+						<div class="options">
+							<div class="options__item">
+								<input id="radiomale" checked type="radio" name="sex" value="male"
+									class="options__input">
+								<label class="options__label" for="radiomale">Мужчина</label>
+							</div>
+							<div class="options__item">
+								<input id="radiofemale" type="radio" name="sex" value="female" class="options__input">
+								<label class="options__label" for="radiofemale">Женщина</label>
+							</div>
+						</div>
+						<div class="checkbox2">
+							<input id="check_2" type="checkbox" name="form[]" value="1" class="checkbox__item">
+							<label for="check_2" class="checkbox__label">Я согласен с</label>
+							<a href="#" class="chec__link">Условия и правила</a>
+						</div>
+						<button class="form__btn2" type="submit">Регистрация</button>
+					</form>
+				</div>
+			</div>
+		</div>
+</body>
+
+</html>
